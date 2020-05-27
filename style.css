@@ -1,0 +1,119 @@
+/*------- body setting------- */
+body{
+    color: black;
+    background-color: rgb(221, 182, 135);
+}
+
+/*------- title setting------- */
+header{
+    text-align: center;  
+}
+
+header h1{
+    background: rgb(184, 180, 180);
+    padding: 21.44px 0; 
+    margin: 0;
+}
+
+
+/* ------score bar setting-------*/
+.score-bar{
+    visibility: hidden;
+}
+
+/*------- main quiz section--------- */
+.formBox{
+    width: 40%;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(181, 206, 207);
+
+}
+.question-field{
+    display: block;
+    width: 100%;
+   
+    justify-content: center;
+}
+
+.startText{
+    text-align: center;
+}
+
+.button-field{
+    display:block;
+    width: 100%;
+    
+    text-align: center;
+}
+
+button{
+    display:inline-block;
+}
+
+
+.hint{
+    display:none;
+    border-radius: 10px;
+}
+
+/* --------final evaluation --------*/
+.final{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* --------result image-------- */
+.result{
+   
+    width: 45%;
+    margin:10px auto;
+}
+
+.result img {
+    width: 100%;
+}
+
+/* ---------headding setting---------- */
+label{
+    word-wrap: break-word;
+}
+
+p{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+h3{
+    margin-top: 0;
+}
+
+/* ---------all hidden classes setting-------- */
+.hidden{
+    display: none;
+}
+
+/*-------- color setting----------- */
+.blue{
+    
+    color: rgb(26, 127, 221);
+}
+.red{
+    color:red;
+}
+
+/* ------------desktop -----------*/
+@media only screen and (min-width: 720px) {
+    /* -------position setting ------*/
+    .left{
+        text-align: left;
+        margin-left: 12%;
+    }
+    .right{
+        text-align: right;
+        margin-right: 7%;
+    }
+    
+}

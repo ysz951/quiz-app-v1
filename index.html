@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <!-- title -->
+        <h1>Geology Quiz</h1>
+        <!-- score-bar initially hidden -->
+        <div class = "score-bar group">
+            <div class="item">
+                <h2 class="right">Question number: <span class="questionNumber red">1</span>/<span class="totalQuestion">?</span></h2>
+            </div>
+            <div class="item">
+                <h2 class="left">Question score: <span class="score red">0</span>/<span class="totalQuestion">?</span></h2>
+            </div>
+        </div>
+    </header>
+        <main>
+            <!-- main quiz section -->
+            <form id="quiz-list-form">
+               <div class='formBox'>
+                   <!-- question box -->
+                <div class="question-field">
+                    <h3 class="startText">Geography knowledge</h3>
+                    <p>This quiz will test your geology knowledge. You may learn some interesting information. Have fun!</p>
+                </div>
+                    <!-- control button box, initially only 'start' is displayed -->
+                <div class="button-field">
+                    <button class="start">Start</button>
+                    <button type="submit" class="hidden submit">Submit</button>
+                    <button class="hidden next">Next</button>
+                    <button class="hidden restart">Restart</button>
+                </div>
+               </div>
+            </form>
+            <!-- final evaluation -->
+            <p class='final'></p>
+            <!-- the image of right answer, initially hidden -->
+            <div class='hidden result'>
+                <img src="" alt ="">
+            </div>
+        </main>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
