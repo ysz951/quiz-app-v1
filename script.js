@@ -132,6 +132,7 @@ function resultCheck(){
     // if current question is the last one, show the final evaluation and restart button
   else{
     $('.restart').show();
+    $('.button-field').css('text-align','center');
     $('.final').show()
     // three final evaluation depends on the score
     if (STORE.score === STORE.questions.length){
@@ -216,6 +217,7 @@ function nextQuiz(){
 }
 
 function restartQuiz(){
+  
   // when click restart button
   $('.restart').on('click', function(event){
     event.preventDefault();
