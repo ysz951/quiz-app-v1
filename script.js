@@ -84,7 +84,7 @@ const OPTION = ['A', 'B', 'C', 'D'];
 function generateSelectionItemElement(option, optionCount){
   optionCount++;
   return `<div class='option'>
-            ${OPTION[optionCount-1]} <input name="options" type="radio" value="${option}">
+            ${OPTION[optionCount-1]} <input name="options" id="opt_${optionCount}" type="radio" value="${option}">
             <label for="opt_${optionCount}">${option}</label><br>
             <p class="hint"></p>
           </div>`
